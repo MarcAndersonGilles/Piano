@@ -12,7 +12,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Document</title>
   </head>
-
+<!-- 
   <body>
     <div class="w-full h-full">
       <div class="flex flex-col items-center">
@@ -137,36 +137,136 @@
         </div>
       </div>
     </div>
+ -->
 
+ <div class="w-full h-full ">
+  <div class="flex flex-col items-center">
+    <div
+      class="flex flex-col   mt-72 bg-gray-700 gap-2 p-4 lg:-8 rounded-lg"
+    >
+      <div class="flex w-full mb-4">
+        <div class="flex justify-between w-full text-white">
+          <div>Playable PIANO</div>
+          <div>Volume</div>
+          <div>Show keys</div>
+        </div>
+      </div>
+      <div class="flex justify-normal w-full h-full mx-auto gap-1">
+        <div
+          class="keys flex relative items-end justify-center bg-white p-2 lg:p-4 rounded-md w-7 lg:w-12 "
+          data-key="65"
+        >
+          A
+        </div>
+
+        <div
+          class="keys flex -ml-4 -mr-4 lg:-ml-6 lg:-mr-6 z-10 items-end justify-center bg-black p-2 lg:p-4 rounded-md w-7 lg:w-12 h-32 text-white"
+          data-key="87"
+        >
+          W
+        </div>
+
+        <div
+          class="keys flex items-end justify-center bg-white p-2 lg:p-4 rounded-md w-7 lg:w-12 h-52"
+          data-key="83"
+        >
+          S
+        </div>
+
+        <div
+          class="keys flex  -ml-4 -mr-4 lg:-ml-6 lg:-mr-6 z-10 items-end justify-center bg-black p-2 lg:p-4 rounded-md w-7 lg:w-12 h-32 text-white"
+          data-key="69"
+        >
+          E
+        </div>
+
+        <div
+          class="keys flex items-end justify-center bg-white p-2 lg:p-4 rounded-md w-7 lg:w-12 h-52"
+          data-key="68"
+        >
+          D
+        </div>
+        <div
+          class="keys flex items-end justify-center bg-white p-2 lg:p-4 rounded-md w-7 lg:w-12 h-52"
+          data-key="70"
+        >
+          F
+        </div>
+        <div
+          class="keys flex -ml-4  -mr-4 lg:-ml-6 lg:-mr-6 z-10 items-end justify-center bg-black p-2 lg:p-4 rounded-md w-7 lg:w-12 h-32 text-white"
+          data-key="84"
+        >
+          T
+        </div>
+        <div
+          class="keys flex items-end justify-center bg-white p-2 lg:p-4 rounded-md w-7 lg:w-12 h-52"
+          data-key="71"
+        >
+          G
+        </div>
+        <div
+          class="keys flex -ml-4  -mr-4 lg:-ml-6 lg:-mr-6 z-10 items-end justify-center bg-black p-2 lg:p-4 rounded-md w-7 lg:w-12 h-32 text-white"
+          data-key="89"
+        >
+          Y
+        </div>
+        <div
+          class="keys flex items-end justify-center bg-white p-2 lg:p-4 rounded-md w-7 lg:w-12 h-52"
+          data-key="72"
+        >
+          H
+        </div>
+        <div
+          class="keys flex -ml-4  -mr-4 lg:-ml-6 lg:-mr-6 z-10 items-end justify-center bg-black p-2 lg:p-4 rounded-md w-7 lg:w-12 h-32 text-white"
+          data-key="85"
+        >
+          U
+        </div>
+        <div
+          class="keys flex items-end justify-center bg-white p-2 lg:p-4 rounded-md w-7 lg:w-12 h-52"
+          data-key="74"
+        >
+          J
+        </div>
+        <div
+          class="keys flex items-end justify-center bg-white p-2 lg:p-4 rounded-md w-7 lg:w-12 h-52"
+          data-key="75"
+        >
+          K
+        </div>
+        <div
+          class="keys flex -ml-4  -mr-4 lg:-ml-6 lg:-mr-6 z-10 items-end justify-center bg-black p-2 lg:p-4 rounded-md w-7 lg:w-12 h-32 text-white"
+          data-key="79"
+        >
+          O
+        </div>
+        <div
+          class="keys flex items-end justify-center bg-white p-2 lg:p-4 rounded-md w-7 lg:w-12 h-52"
+          data-key="76"
+        >
+          L
+        </div>
+        <div
+          class="keys flex -ml-4  -mr-4 lg:-ml-6 lg:-mr-6 z-10 items-end justify-center bg-black p-2 lg:p-4 rounded-md w-7 lg:w-12 h-32 text-white"
+          data-key="80"
+        >
+          P
+        </div>
+        <div
+          class="keys flex items-end justify-center bg-white p-2 lg:p-4 rounded-md w-7 lg:w-12 h-52"
+          data-key="186" 
+        >
+          ;
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
     <script src="main.js"></script>
     
     <script>
       
 
-      document.addEventListener("keydown", (e) => {
-       const key = e.keyCode
-       const dataKey = document.querySelector(`[data-key="${key}"]`)
-       
-       if(!dataKey){
-        return;
-       }
-       if(dataKey ){
-        dataKey.classList.add("bg-blue-500")
-       }
-      })
-
-      document.addEventListener("keyup", (e) => {
-        const key = e.keyCode;
-        const dataKey = document.querySelector(`[data-key="${key}"]`);
-       
-        if(!dataKey){
-          return;
-         }
-        if (dataKey) {
-          dataKey.classList.remove("bg-blue-500");
-        }
-      });
-      
     </script>
   </body>
 </html>
