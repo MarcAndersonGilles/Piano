@@ -1,149 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <link rel="stylesheet" type="text/css" href="style.css">
-  <link href="/dist/output.css" rel="stylesheet"> -->
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css"
-      rel="stylesheet"
-    />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>Document</title>
-  </head>
-<!-- 
-  <body>
-    <div class="w-full h-full">
-      <div class="flex flex-col items-center">
-        <div
-          class="flex flex-col w-full max-w-xl mt-72 bg-gray-700 gap-3 p-8 rounded-lg"
-        >
-          <div class="flex w-full mb-4">
-            <div class="flex justify-between w-full text-white">
-              <div>Playable PIANO</div>
-              <div>Volume</div>
-              <div>Show keys</div>
-            </div>
-          </div>
-          <div class="flex justify-normal w-full h-full mx-auto gap-1">
-            <div
-              class="keys flex relative items-end justify-center bg-white p-4 rounded-md w-12 h-52"
-              data-key="65"
-            >
-              A
-            </div>
 
-            <div
-              class="keys flex -ml-6 -mr-6 z-10 items-end justify-center bg-black p-4 rounded-md w-12 h-32 text-white"
-              data-key="87"
-            >
-              W
-            </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Document</title>
+</head>
 
-            <div
-              class="keys flex items-end justify-center bg-white p-4 rounded-md w-12 h-52"
-              data-key="83"
-            >
-              S
-            </div>
-
-            <div
-              class="keys flex -ml-6 -mr-6 z-10 items-end justify-center bg-black p-4 rounded-md w-12 h-32 text-white"
-              data-key="69"
-            >
-              E
-            </div>
-
-            <div
-              class="keys flex items-end justify-center bg-white p-4 rounded-md w-12 h-52"
-              data-key="68"
-            >
-              D
-            </div>
-            <div
-              class="keys flex items-end justify-center bg-white p-4 rounded-md w-12 h-52"
-              data-key="70"
-            >
-              F
-            </div>
-            <div
-              class="keys flex -ml-6 -mr-6 z-10 items-end justify-center bg-black p-4 rounded-md w-12 h-32 text-white"
-              data-key="84"
-            >
-              T
-            </div>
-            <div
-              class="keys flex items-end justify-center bg-white p-4 rounded-md w-12 h-52"
-              data-key="71"
-            >
-              G
-            </div>
-            <div
-              class="keys flex -ml-6 -mr-6 z-10 items-end justify-center bg-black p-4 rounded-md w-12 h-32 text-white"
-              data-key="89"
-            >
-              Y
-            </div>
-            <div
-              class="keys flex items-end justify-center bg-white p-4 rounded-md w-12 h-52"
-              data-key="72"
-            >
-              H
-            </div>
-            <div
-              class="keys flex -ml-6 -mr-6 z-10 items-end justify-center bg-black p-4 rounded-md w-12 h-32 text-white"
-              data-key="85"
-            >
-              U
-            </div>
-            <div
-              class="keys flex items-end justify-center bg-white p-4 rounded-md w-12 h-52"
-              data-key="74"
-            >
-              J
-            </div>
-            <div
-              class="keys flex items-end justify-center bg-white p-4 rounded-md w-12 h-52"
-              data-key="75"
-            >
-              K
-            </div>
-            <div
-              class="keys flex -ml-6 -mr-6 z-10 items-end justify-center bg-black p-4 rounded-md w-12 h-32 text-white"
-              data-key="79"
-            >
-              O
-            </div>
-            <div
-              class="keys flex items-end justify-center bg-white p-4 rounded-md w-12 h-52"
-              data-key="76"
-            >
-              L
-            </div>
-            <div
-              class="keys flex -ml-6 -mr-6 z-10 items-end justify-center bg-black p-4 rounded-md w-12 h-32 text-white"
-              data-key="80"
-            >
-              P
-            </div>
-            <div
-              class="keys flex items-end justify-center bg-white p-4 rounded-md w-12 h-52"
-              data-key="186" 
-            >
-              ;
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
- -->
-
- <div class="w-full h-full ">
+<div class="w-full h-full ">
   <div class="flex flex-col items-center">
-    <div
-      class="flex flex-col   mt-72 bg-gray-700 gap-2 p-4 lg:-8 rounded-lg"
-    >
+    <div class="flex flex-col   mt-72 bg-gray-700 gap-2 p-4 lg:-8 rounded-lg">
       <div class="flex w-full mb-4">
         <div class="flex justify-between w-full text-white">
           <div>Playable PIANO</div>
@@ -152,141 +20,106 @@
         </div>
       </div>
       <div class="flex justify-normal w-full h-full mx-auto gap-1">
-        <div
-          class="keys flex relative items-end justify-center bg-white p-2 lg:p-4 rounded-md w-7 lg:w-12 "
-          data-key="65"
-        >
+        <div class="keys flex relative items-end justify-center bg-white p-2 lg:p-4 rounded-md w-7 lg:w-12 "
+          data-key="65">
           A
         </div>
 
         <div
           class="keys flex -ml-4 -mr-4 lg:-ml-6 lg:-mr-6 z-10 items-end justify-center bg-black p-2 lg:p-4 rounded-md w-7 lg:w-12 h-32 text-white"
-          data-key="87"
-        >
+          data-key="87">
           W
         </div>
 
-        <div
-          class="keys flex items-end justify-center bg-white p-2 lg:p-4 rounded-md w-7 lg:w-12 h-52"
-          data-key="83"
-        >
+        <div class="keys flex items-end justify-center bg-white p-2 lg:p-4 rounded-md w-7 lg:w-12 h-52" data-key="83">
           S
         </div>
 
         <div
           class="keys flex  -ml-4 -mr-4 lg:-ml-6 lg:-mr-6 z-10 items-end justify-center bg-black p-2 lg:p-4 rounded-md w-7 lg:w-12 h-32 text-white"
-          data-key="69"
-        >
+          data-key="69">
           E
         </div>
 
-        <div
-          class="keys flex items-end justify-center bg-white p-2 lg:p-4 rounded-md w-7 lg:w-12 h-52"
-          data-key="68"
-        >
+        <div class="keys flex items-end justify-center bg-white p-2 lg:p-4 rounded-md w-7 lg:w-12 h-52" data-key="68">
           D
         </div>
-        <div
-          class="keys flex items-end justify-center bg-white p-2 lg:p-4 rounded-md w-7 lg:w-12 h-52"
-          data-key="70"
-        >
+        <div class="keys flex items-end justify-center bg-white p-2 lg:p-4 rounded-md w-7 lg:w-12 h-52" data-key="70">
           F
         </div>
         <div
           class="keys flex -ml-4  -mr-4 lg:-ml-6 lg:-mr-6 z-10 items-end justify-center bg-black p-2 lg:p-4 rounded-md w-7 lg:w-12 h-32 text-white"
-          data-key="84"
-        >
+          data-key="84">
           T
         </div>
-        <div
-          class="keys flex items-end justify-center bg-white p-2 lg:p-4 rounded-md w-7 lg:w-12 h-52"
-          data-key="71"
-        >
+        <div class="keys flex items-end justify-center bg-white p-2 lg:p-4 rounded-md w-7 lg:w-12 h-52" data-key="71">
           G
         </div>
         <div
           class="keys flex -ml-4  -mr-4 lg:-ml-6 lg:-mr-6 z-10 items-end justify-center bg-black p-2 lg:p-4 rounded-md w-7 lg:w-12 h-32 text-white"
-          data-key="89"
-        >
+          data-key="89">
           Y
         </div>
-        <div
-          class="keys flex items-end justify-center bg-white p-2 lg:p-4 rounded-md w-7 lg:w-12 h-52"
-          data-key="72"
-        >
+        <div class="keys flex items-end justify-center bg-white p-2 lg:p-4 rounded-md w-7 lg:w-12 h-52" data-key="72">
           H
         </div>
         <div
           class="keys flex -ml-4  -mr-4 lg:-ml-6 lg:-mr-6 z-10 items-end justify-center bg-black p-2 lg:p-4 rounded-md w-7 lg:w-12 h-32 text-white"
-          data-key="85"
-        >
+          data-key="85">
           U
         </div>
-        <div
-          class="keys flex items-end justify-center bg-white p-2 lg:p-4 rounded-md w-7 lg:w-12 h-52"
-          data-key="74"
-        >
+        <div class="keys flex items-end justify-center bg-white p-2 lg:p-4 rounded-md w-7 lg:w-12 h-52" data-key="74">
           J
         </div>
-        <div
-          class="keys flex items-end justify-center bg-white p-2 lg:p-4 rounded-md w-7 lg:w-12 h-52"
-          data-key="75"
-        >
+        <div class="keys flex items-end justify-center bg-white p-2 lg:p-4 rounded-md w-7 lg:w-12 h-52" data-key="75">
           K
         </div>
         <div
           class="keys flex -ml-4  -mr-4 lg:-ml-6 lg:-mr-6 z-10 items-end justify-center bg-black p-2 lg:p-4 rounded-md w-7 lg:w-12 h-32 text-white"
-          data-key="79"
-        >
+          data-key="79">
           O
         </div>
-        <div
-          class="keys flex items-end justify-center bg-white p-2 lg:p-4 rounded-md w-7 lg:w-12 h-52"
-          data-key="76"
-        >
+        <div class="keys flex items-end justify-center bg-white p-2 lg:p-4 rounded-md w-7 lg:w-12 h-52" data-key="76">
           L
         </div>
         <div
           class="keys flex -ml-4  -mr-4 lg:-ml-6 lg:-mr-6 z-10 items-end justify-center bg-black p-2 lg:p-4 rounded-md w-7 lg:w-12 h-32 text-white"
-          data-key="80"
-        >
+          data-key="80">
           P
         </div>
-        <div
-          class="keys flex items-end justify-center bg-white p-2 lg:p-4 rounded-md w-7 lg:w-12 h-52"
-          data-key="186" 
-        >
+        <div class="keys flex items-end justify-center bg-white p-2 lg:p-4 rounded-md w-7 lg:w-12 h-52" data-key="186">
           ;
         </div>
       </div>
-      
-<audio src="24-piano-keys/key01.mp3"data-key="65"></audio>
-<audio src="24-piano-keys/key02.mp3"data-key="87"></audio>
-<audio src="24-piano-keys/key03.mp3"data-key="83"></audio>
-<audio src="24-piano-keys/key04.mp3"data-key="69"></audio>
-<audio src="24-piano-keys/key05.mp3"data-key="68"></audio>
-<audio src="24-piano-keys/key06.mp3"data-key="70"></audio>
-<audio src="24-piano-keys/key07.mp3"data-key="84"></audio>
-<audio src="24-piano-keys/key08.mp3"data-key="71"></audio>
-<audio src="24-piano-keys/key09.mp3"data-key="89"></audio>
-<audio src="24-piano-keys/key10.mp3"data-key="72"></audio>
-<audio src="24-piano-keys/key11.mp3"data-key="85"></audio>
-<audio src="24-piano-keys/key12.mp3"data-key="74"></audio>
-<audio src="24-piano-keys/key13.mp3"data-key="75"></audio>
-<audio src="24-piano-keys/key14.mp3"data-key="79"></audio>
-<audio src="24-piano-keys/key15.mp3"data-key="76"></audio>
-<audio src="24-piano-keys/key16.mp3"data-key="80"></audio>
-<audio src="24-piano-keys/key17.mp3"data-key="186"></audio>
+
+      <audio src="24-piano-keys/key01.mp3" data-key="65"></audio>
+      <audio src="24-piano-keys/key02.mp3" data-key="87"></audio>
+      <audio src="24-piano-keys/key03.mp3" data-key="83"></audio>
+      <audio src="24-piano-keys/key04.mp3" data-key="69"></audio>
+      <audio src="24-piano-keys/key05.mp3" data-key="68"></audio>
+      <audio src="24-piano-keys/key06.mp3" data-key="70"></audio>
+      <audio src="24-piano-keys/key07.mp3" data-key="84"></audio>
+      <audio src="24-piano-keys/key08.mp3" data-key="71"></audio>
+      <audio src="24-piano-keys/key09.mp3" data-key="89"></audio>
+      <audio src="24-piano-keys/key10.mp3" data-key="72"></audio>
+      <audio src="24-piano-keys/key11.mp3" data-key="85"></audio>
+      <audio src="24-piano-keys/key12.mp3" data-key="74"></audio>
+      <audio src="24-piano-keys/key13.mp3" data-key="75"></audio>
+      <audio src="24-piano-keys/key14.mp3" data-key="79"></audio>
+      <audio src="24-piano-keys/key15.mp3" data-key="76"></audio>
+      <audio src="24-piano-keys/key16.mp3" data-key="80"></audio>
+      <audio src="24-piano-keys/key17.mp3" data-key="186"></audio>
 
 
     </div>
   </div>
 </div>
-    <script src="main.js"></script>
-    
-    <script>
-      
+<script src="main.js"></script>
 
-    </script>
-  </body>
+<script>
+
+
+</script>
+</body>
+
 </html>
